@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/c819934/MachineLearning/PRODUCTION/mlruns/0/b7350d163dfe4d2787cf6cfb4639dc50/artifacts
+end_time: 1574193424438
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: b7350d163dfe4d2787cf6cfb4639dc50
+run_uuid: b7350d163dfe4d2787cf6cfb4639dc50
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1574193417301
+status: 4
+tags: []
+user_id: C819934
