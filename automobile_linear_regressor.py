@@ -155,7 +155,7 @@ def main(argv):
         
         try:
             saved_estimator_path = model.export_saved_model(temp, receiver_fn).decode("utf-8")
-            pyfunc_model = pyfunc.load_model(mlflow.get_artifact_uri('model'))
+            pyfunc_model = pyfunc.load_model(mlflow.get_artifact_uri(artifact_path = None))
 #            tf.data.Dataset.from_tensor_slices(dict(predict))
             predict_data = tf.constant(value = np.array([[1000, 3000], [20, 30]]),
                                        dtype=tf.int32)
